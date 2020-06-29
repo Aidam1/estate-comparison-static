@@ -1,4 +1,4 @@
-.list {
+.estate-list {
   display: flex;
   justify-content: center;
   margin: 1rem;
@@ -10,11 +10,16 @@
   width: 10rem;
   height: 7rem;
 
+  &:hover {
+    cursor: pointer;
+  }
+
   &__img {
     object-fit: cover;
     width: inherit;
     height: inherit;
   }
+
   &__description {
     position: absolute;
     font-size: 0.75rem;
