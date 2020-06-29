@@ -1,4 +1,4 @@
-.comparison {
+.estate-comparison {
   display: flex;
   justify-content: center;
   margin-bottom: 4rem;
@@ -19,6 +19,7 @@
     &--green {
       background-color: $color-comparison-green;
     }
+
     &--red {
       background-color: $color-comparison-red;
     }
@@ -31,11 +32,13 @@
 
   &__company {
     display: flex;
+
     &__logo {
       height: 6rem;
       padding: 0.5rem 0;
       object-fit: contain;
     }
+
     &__name {
       line-height: 6rem;
     }
