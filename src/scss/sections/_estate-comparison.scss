@@ -32,6 +32,7 @@
 
   &__company {
     display: flex;
+    align-items: center;
 
     &__logo {
       height: 6rem;
@@ -40,7 +41,7 @@
     }
 
     &__name {
-      line-height: 6rem;
+      margin-left: 0.5rem;
     }
   }
 }
