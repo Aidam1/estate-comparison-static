@@ -1,7 +1,8 @@
 .estate-comparison {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .estate-card {
@@ -32,6 +33,7 @@
 
   &__company {
     display: flex;
+    align-items: center;
 
     &__logo {
       height: 6rem;
@@ -40,7 +42,7 @@
     }
 
     &__name {
-      line-height: 6rem;
+      margin-left: 0.5rem;
     }
   }
 }
